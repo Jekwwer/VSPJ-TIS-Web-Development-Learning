@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Tables</title>
+  </head>
+  <body>
+    <!-- Table with caption and combined header cells -->
+    <table border="1">
+      <!-- Caption element to provide a title for the table -->
+      <caption>
+        List of employees
+      </caption>
+      <tr>
+        <!-- The colspan attribute allows the 'Name' header to span across two columns -->
+        <th colspan="2">Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Guilia</td>
+        <td>Nivars</td>
+        <td>34</td>
+      </tr>
+      <tr>
+        <td>Eva</td>
+        <td>Brown</td>
+        <td>25</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <!-- Table with rowspan to illustrate a product stock list where 'c00kiYES' spans two rows -->
+    <table border="1">
+      <tr>
+        <th>Store</th>
+        <th>Product</th>
+        <th>Stock</th>
+      </tr>
+      <tr>
+        <!-- The rowspan attribute allows the 'Store' cell to span across two rows -->
+        <td rowspan="2">c00kiYES</td>
+        <td>Squaries</td>
+        <td>101</td>
+      </tr>
+      <tr>
+        <td>Roundies</td>
+        <td>38</td>
+      </tr>
+      <tr>
+        <td>WAF-WAF</td>
+        <td>WAF-less</td>
+        <td>234</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <!-- Standard table with a header cell styled with a background color -->
+    <table border="1">
+      <tr>
+        <!-- The inline style applies a gray background to the 'Name' header -->
+        <th style="background-color: #696969">Name</th>
+        <th>Email</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>John Doe</td>
+        <td>johndoe@example.com</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>Jane Smith</td>
+        <td>janesmith@example.com</td>
+        <td>25</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <!-- Table with padding added to the first data cell -->
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <!-- Padding added to make the cell larger and content more spaced out -->
+        <td style="padding: 20px">John Doe</td>
+        <td>johndoe@example.com</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>Jane Smith</td>
+        <td>janesmith@example.com</td>
+        <td>25</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <!-- Table with different padding styles for each side of the first data cell -->
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <!-- Individual padding values for each side of the cell -->
+        <td
+          style="
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 40px;
+          "
+        >
+          John Doe
+        </td>
+        <td>johndoe@example.com</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>Jane Smith</td>
+        <td>janesmith@example.com</td>
+        <td>25</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <!-- Table with border spacing to add space between cells -->
+    <table border="1" style="border-spacing: 20px">
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>John Doe</td>
+        <td>johndoe@example.com</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>Jane Smith</td>
+        <td>janesmith@example.com</td>
+        <td>25</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <!-- Table with a style attribute ensuring it takes the full width of its container -->
+    <table border="1" style="width: 100%">
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
+      </tr>
+        <td>John Doe</td>
+        <td>John Doe</td>
+        <td>johndoe@example.com</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>Jane Smith</td>
+        <td>janesmith@example.com</td>
+        <td>25</td>
+      </tr>
+    </table>
+  </body>
+</html>
