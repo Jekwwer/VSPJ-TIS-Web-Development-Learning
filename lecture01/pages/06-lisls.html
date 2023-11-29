@@ -1,101 +1,130 @@
 <!DOCTYPE html>
+<!-- ========================================================                 -->
+<!-- lecture01/pages/06-lists.html File                                       -->
+<!-- ========================================================                 -->
+<!-- Project: VSPJ-TIS-Web-Development-Learning                               -->
+<!-- Repository: https://github.com/Jekwwer/VSPJ-TIS-Web-Development-Learning -->
+<!-- Author: Evgenii Shiliaev                                                 -->
+<!-- Description: Demonstrates the use of various HTML list types and styles  -->
+<!-- ========================================================                 -->
 <html>
-<head>
-  <title>HTML Lists</title>
-</head>
-<body>
+  <head>
+    <title>HTML Lists</title>
+    <!-- The title tag sets the title of the web page, which appears in the browser's title bar or tab -->
+  </head>
+  <body>
+    <h2>Unordered Lists</h2>
+    <!-- Unordered lists are used for lists where the order of the items is not important -->
 
-<h2>Unordered Lists</h2>
-<h3>Default Markers (disc)</h3>
-<ul style="list-style-type: disc;">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-
-<h3>Circle Markers</h3>
-<ul style="list-style-type: circle;">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-
-<h3>Square Markers</h3>
-<ul style="list-style-type: square;">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-
-<h3>No Markers</h3>
-<ul style="list-style-type: none;">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-
-<h2>Ordered Lists</h2>
-<h3>Default Numbering (1, 2, 3, ...)</h3>
-<ol type="1">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
-
-<h3>Uppercase Letters (A, B, C, ...)</h3>
-<ol type="A">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
-
-<h3>Lowercase Letters (a, b, c, ...)</h3>
-<ol type="a">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
-
-<h3>Uppercase Roman Numerals (I, II, III, ...)</h3>
-<ol type="I">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
-
-<h3>Lowercase Roman Numerals (i, ii, iii, ...)</h3>
-<ol type="i">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
-
-<h3>Starting from Number 50</h3>
-<ol start="50">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
-
-<h2>Description List</h2>
-<dl>
-  <dt>Coffee</dt>
-  <dd>- black hot drink</dd>
-  <dt>Milk</dt>
-  <dd>- white cold drink</dd>
-</dl>
-
-<h2>Nested Lists</h2>
-<ol>
-  <li>Coffee</li>
-  <li>Tea
-    <ul>
-      <li>Black tea</li>
-      <li>Green tea</li>
+    <h3>Default Markers (disc)</h3>
+    <!-- Unordered list with default disc markers -->
+    <ul style="list-style-type: disc">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
     </ul>
-  </li>
-  <li>Milk</li>
-</ol>
 
-</body>
+    <h3>Circle Markers</h3>
+    <!-- Unordered list with circle markers -->
+    <ul style="list-style-type: circle">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+
+    <h3>Square Markers</h3>
+    <!-- Unordered list with square markers -->
+    <ul style="list-style-type: square">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+
+    <h3>No Markers</h3>
+    <!-- Unordered list without any markers -->
+    <ul style="list-style-type: none">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+
+    <h2>Ordered Lists</h2>
+    <!-- Ordered lists are used for lists where the order of the items is important -->
+
+    <h3>Default Numbering (1, 2, 3, ...)</h3>
+    <!-- Ordered list with default numeric markers -->
+    <ol type="1">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <h3>Uppercase Letters (A, B, C, ...)</h3>
+    <!-- Ordered list with uppercase letter markers -->
+    <ol type="A">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <h3>Lowercase Letters (a, b, c, ...)</h3>
+    <!-- Ordered list with lowercase letter markers -->
+    <ol type="a">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <h3>Uppercase Roman Numerals (I, II, III, ...)</h3>
+    <!-- Ordered list with uppercase Roman numeral markers -->
+    <ol type="I">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <h3>Lowercase Roman Numerals (i, ii, iii, ...)</h3>
+    <!-- Ordered list with lowercase Roman numeral markers -->
+    <ol type="i">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <h3>Starting from Number 50</h3>
+    <!-- Ordered list starting from number 50 -->
+    <ol start="50">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <h2>Description List</h2>
+    <!-- Description list for pairing terms with their descriptions -->
+    <dl>
+      <dt>Coffee</dt>
+      <dd>- black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>- white cold drink</dd>
+    </dl>
+
+    <h2>Nested Lists</h2>
+    <!-- Nested lists show how lists can be embedded within each other -->
+    <ol>
+      <li>Coffee</li>
+      <li>
+        Tea
+        <!-- Nested unordered list within an ordered list -->
+        <ul>
+          <li>Black tea</li>
+          <li>Green tea</li>
+        </ul>
+      </li>
+      <li>Milk</li>
+    </ol>
+  </body>
 </html>
+
+<!-- ======================================================== -->
+<!-- End of lecture01/pages/06-lists.html                     -->
+<!-- ======================================================== -->
